@@ -1,0 +1,44 @@
+{
+    "name": "spicyhost/hidev-vendor",
+    "type": "yii2-extension",
+    "description": "SpicyHost vendor configuration for HiDev",
+    "keywords": [
+        "spicyhost hosters",
+        "hidev",
+        "vendor config"
+    ],
+    "homepage": "https://github.com/spicyhost/hidev-vendor",
+    "license": "No license",
+    "support": {
+        "email": "support@spicyhost.com",
+        "source": "https://github.com/spicyhost/hidev-vendor",
+        "issues": "https://github.com/spicyhost/hidev-vendor/issues",
+        "wiki": "https://github.com/spicyhost/hidev-vendor/wiki"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        }
+    ],
+    "require-dev": {
+        "hiqdev/hidev-php": "<2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "spicyhost\\hidev\\vendor\\": "src"
+        }
+    },
+    "extra": {
+        "extension-plugin": {
+            "hidev-config": "src/config/hidev.php"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

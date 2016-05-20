@@ -1,0 +1,23 @@
+package:
+    type:           yii2-extension
+    name:           hidev-vendor
+    title:          SpicyHost vendor configuration for HiDev
+    headline:       SpicyHost HiDev config
+    keywords:       spicyhost hosters, hidev, vendor config
+    namespace:      spicyhost\hidev\vendor
+    description:    |
+        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+
+        This plugin provides [SpicyHost](https://github.com/spicyhost) vendor configuration for HiDev.
+
+        Provides SpicyHost information and settings:
+
+        * general data: vendor name and company title
+        * contact data: email, forum, github page
+        * authors data: names, emails, github and home pages
+        * default license: proprietary
+
+        See [src/config/goals.yml](src/config/goals.yml).
+
+include:
+    - src/config/goals.yml
